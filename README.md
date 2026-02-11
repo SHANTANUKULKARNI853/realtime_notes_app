@@ -13,7 +13,7 @@ Built to demonstrate:
 # 🌍 Live Demo
 
 ### 🖥 Frontend  
-👉 [https://YOUR-VERCEL-URL.vercel.app  ](https://realtime-notes-app-beta.vercel.app/)
+👉 https://realtime-notes-app-beta.vercel.app/
 
 ### 🔧 Backend API  
 👉 https://realtimenotesapp-production.up.railway.app  
