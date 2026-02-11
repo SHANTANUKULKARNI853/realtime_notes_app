@@ -145,6 +145,27 @@ Server broadcasts 🌍
 ↓
 User B sees update instantly ⚡
 
+---
+
+## 🧪 Quick Test (2–3 Minutes)
+
+1️⃣ **Login**
+Use: `admin@mail.com / 123456`
+➡️ You should reach the dashboard.
+
+2️⃣ **Create & Edit**
+Click **+ New Note**, change title/content.
+➡️ Changes save instantly.
+
+3️⃣ **Real-Time Sync ⚡**
+Open the app in two browsers and edit the same note.
+➡️ Updates appear live.
+
+4️⃣ **Role Check 🔐**
+Login as `viewer@mail.com / 123456`.
+➡️ Viewer can view but NOT edit.
+
+✅ If all pass → app works perfectly 🚀
 
 ---
 
