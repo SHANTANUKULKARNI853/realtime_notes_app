@@ -7,7 +7,7 @@ export default function Login({ setToken }) {
 
   const login = async ()=>{
     const res = await axios.post(
-      "realtimenotesapp-production.up.railway.app/auth/login",
+      "http://realtimenotesapp-production.up.railway.app/auth/login",
       {email,password}
     );
 
