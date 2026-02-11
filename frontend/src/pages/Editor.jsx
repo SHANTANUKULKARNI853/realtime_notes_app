@@ -2,7 +2,7 @@ import { useEffect,useState } from "react";
 import { io } from "socket.io-client";
 import axios from "axios";
 
-const socket = io("http://realtimenotesapp-production.up.railway.app");
+const socket = io("https://realtimenotesapp-production.up.railway.app");
 
 export default function Editor({ note, token }) {
 
@@ -34,7 +34,7 @@ export default function Editor({ note, token }) {
     });
 
     await axios.put(
-      `http://realtimenotesapp-production.up.railway.app/notes/${note.id}`,
+      `https://realtimenotesapp-production.up.railway.app/notes/${note.id}`,
       {title:newTitle,content:newContent},
       {headers:{Authorization:`Bearer ${token}`}}
     );

@@ -8,7 +8,7 @@ export default function Dashboard({ token }) {
 
   const fetchNotes=async()=>{
     const res=await axios.get(
-      "http://realtimenotesapp-production.up.railway.app/notes",
+      "https://realtimenotesapp-production.up.railway.app/notes",
       {headers:{Authorization:`Bearer ${token}`}}
     );
     setNotes(res.data);
@@ -19,7 +19,7 @@ export default function Dashboard({ token }) {
   // ✅ CREATE NOTE
   const createNote=async()=>{
     const res=await axios.post(
-      "http://realtimenotesapp-production.up.railway.app/notes",
+      "https://realtimenotesapp-production.up.railway.app/notes",
       {
         title:"Untitled Note",
         content:"Start writing..."
