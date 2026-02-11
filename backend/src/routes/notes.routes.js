@@ -230,7 +230,7 @@ router.post("/:id/share", auth, async (req, res) => {
 
     res.json({
       message: "Share link generated",
-      link: `http://localhost:5000/public/${token}`,
+      link: `realtimenotesapp-production.up.railway.app/public/${token}`,
     });
 
   } catch (err) {
